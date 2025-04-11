@@ -1,0 +1,52 @@
+body 
+{
+  font-family:'Mancore', Times, serif
+}
+
+h1 {
+    color: #121212;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: -0.03em;
+    line-height: 100%;
+}
+
+.h2-about{
+    color:#121212;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: -0.03em;
+    color: 121212;
+}
+
+img {
+    font-weight: 1150px;
+    height: 450;
+}
+
+.green_room {
+    width: 1150px;
+    height: 500px;
+position: relative;
+    background-image: url('../resourses/Rectangle\ 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+   /* padding-bottom: 40px;
+    padding-left: 35px; */
+}
+.green_room_text {
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+}
