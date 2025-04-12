@@ -50,3 +50,20 @@ position: relative;
     font-size: 20px;
     letter-spacing: -0.03em;
 }
+.btn {
+    display: block;
+    width: 255px;
+    height: 67px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 67px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+/*.btn:hover {
+    color: black;
+    background-color: blue;
+}*/
+
