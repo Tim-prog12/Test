@@ -1,24 +1,57 @@
-body 
-{font-family:'Mancore', Times, serif
+body {font-family:'Manrope', Times, serif
 }
 
+/* title-block start */
 
-h1 {
+.title-block{
+    width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.title-block h1 {
     color: #121212;
     font-size: 60px;
-    font-weight: 400;
+    width: 956px;
+    font-weight: 400px;
     text-align: left;
     letter-spacing: -0.03em;
     line-height: 100%;
     margin-bottom: 30px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
+
 img {
     font-weight: 1150px;
     height: 450;
 }
+.title-block__room {
+    width: 1150px;
+    height: 500px;
+position: relative;
+    background-image: url('../resourses/Rectangle\ 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    /* margin-left: 150px; */
+   /* padding-bottom: 40px;
+    padding-left: 35px; */
+}
+.title-block__room-text {
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
+    color: rgb(255, 255, 255);
+    width: 430px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: normal;
+}
 
-.h2-about{
+/* title-block end */
+
+
+/* about-block start */
+.about-block{
     color:#121212;
     font-weight: 400;
     font-size: 18px;
@@ -28,7 +61,7 @@ img {
     margin-left: 150px;
 }
 
-h2 {
+.about-block__h2{
     font-weight: 400;
     font-size: 45px;
     letter-spacing: -0.03em;
@@ -37,27 +70,7 @@ h2 {
     margin-left: 150px;
 }
 
-.green_room {
-    width: 1150px;
-    height: 500px;
-position: relative;
-    background-image: url('../resourses/Rectangle\ 1.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 150px;
-    margin-left: 150px;
-   /* padding-bottom: 40px;
-    padding-left: 35px; */
-}
-.green_room_text {
-    position: absolute;
-    bottom: 40px;
-    left: 35px;
-    color: rgb(255, 255, 255);
-    width: 400px;
-    font-size: 20px;
-    letter-spacing: -0.03em;
-}
+
 .btn {
     display: block;
     width: 255px;
@@ -76,3 +89,4 @@ position: relative;
     color: black;
     background-color: blue;
 }*/
+/* about-block end */
